@@ -9,10 +9,13 @@ host launches a local child process and exchanges ASCII lines over stdin/stdout.
 Motion advances only through explicit `STEP` commands, making the simulation
 deterministic without threads or timers.
 
-**Status:** v1.0.0 release candidate implemented and verified; publication awaits
-approval. The project author defined the scope, approved the protocol, and
+**Version:** v1.0.0, implemented and verified. The project author defined the
+scope, approved the protocol and public publication, and
 directed development. Codex generated the implementation, tests, and documents.
 Independent coding work is not claimed; see [contributions](docs/CONTRIBUTIONS.md).
+
+[GitHub repository](https://github.com/Prajwal-Reddy25/virtual-six-servo-controller)
+and [v1.0.0 release](https://github.com/Prajwal-Reddy25/virtual-six-servo-controller/releases/tag/v1.0.0).
 
 ## Architecture
 

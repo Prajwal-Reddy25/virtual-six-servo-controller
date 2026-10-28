@@ -18,7 +18,9 @@ recorded separately. Generated code is not evidence of independent coding.
 | Documentation, examples, learning guide, release preparation | Codex | Repository documents |
 | Independent parser implementation, link diagnosis, or extension | Not established | No authored attempt was present when the strategy changed; optional future learning work |
 | Independent explanation of the implementation | Not assessed | Questions and exercises supplied; answers not reviewed |
-| GitHub publication approval | Project author | Pending; no external publication authorized |
+| GitHub publication approval | Project author | Explicitly authorized public `Prajwal-Reddy25/virtual-six-servo-controller` and release `v1.0.0` |
+| Publication identity decision | Project author | Explicitly approved publishing the existing commit with its current author email after metadata review |
+| Publication preparation and execution | Codex | Repository creation, remote setup, documentation update, normal branch/tag pushes, release publication, and public-access checks |
 
 ## Development history
 
@@ -39,3 +41,11 @@ diagnosed by Codex. These are not independent author debugging evidence.
 Future independent work should include an authored diff/commit, rationale,
 test results, and reviewed explanation. No physical servo testing, real-time
 behavior, or independent programming fluency is established by this release.
+
+## v1.0.0 publication scope
+
+The author authorized publication under `Prajwal-Reddy25` and confirmed that the
+existing Git author/committer email may be public. The reviewed source commit
+`b8e01ccf686b1cc371cc347cb69215a2bf9d6190` is preserved unchanged in history.
+A subsequent documentation-only commit records approval and removes draft
+wording before tagging. No functionality was added during publication.

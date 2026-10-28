@@ -1,6 +1,7 @@
 # Virtual Six-Servo Controller v1.0.0
 
-Local release draft; external publication requires approval.
+Public release authorized by the project author for
+`Prajwal-Reddy25/virtual-six-servo-controller`.
 
 A software-only Python/C++17 application validates ASCII commands and simulates
 six independently configurable actuator positions over a deterministic
