@@ -1,0 +1,17 @@
+$ ctest --test-dir build-release --output-on-failure
+Internal ctest changing into directory: <repo>/build-release
+Test project <repo>/build-release
+    Start 1: joint_motion
+1/4 Test #1: joint_motion .....................   Passed    0.00 sec
+    Start 2: command_parser
+2/4 Test #2: command_parser ...................   Passed    0.00 sec
+    Start 3: six_joint_controller
+3/4 Test #3: six_joint_controller .............   Passed    0.00 sec
+    Start 4: python_host_and_integration
+4/4 Test #4: python_host_and_integration ......   Passed    0.85 sec
+
+100% tests passed, 0 tests failed out of 4
+
+Total Test time (real) =   0.86 sec
+
+Exit status: 0

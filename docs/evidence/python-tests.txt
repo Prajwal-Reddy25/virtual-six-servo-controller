@@ -1,0 +1,25 @@
+$ /usr/bin/python3 -m unittest discover -s tests -v
+test_invalid_local_requests_do_not_poison_connection (test_host.FaultyProcessTests.test_invalid_local_requests_do_not_poison_connection) ... ok
+test_invalid_response_bytes_and_framing (test_host.FaultyProcessTests.test_invalid_response_bytes_and_framing) ... ok
+test_invalid_timeout (test_host.FaultyProcessTests.test_invalid_timeout) ... ok
+test_nonzero_exit_after_quit_acknowledgment (test_host.FaultyProcessTests.test_nonzero_exit_after_quit_acknowledgment) ... ok
+test_stderr_does_not_block_response (test_host.FaultyProcessTests.test_stderr_does_not_block_response) ... ok
+test_timeout_and_forced_cleanup (test_host.FaultyProcessTests.test_timeout_and_forced_cleanup) ... ok
+test_unexpected_nonzero_exit (test_host.FaultyProcessTests.test_unexpected_nonzero_exit) ... ok
+test_malformed_or_mismatched_responses (test_host.ResponseTests.test_malformed_or_mismatched_responses) ... ok
+test_valid_responses (test_host.ResponseTests.test_valid_responses) ... ok
+test_bad_startup_arguments_and_configuration (test_integration.IntegrationTests.test_bad_startup_arguments_and_configuration) ... ok
+test_cli_demo_and_piped_input (test_integration.IntegrationTests.test_cli_demo_and_piped_input) ... ok
+test_eof_discards_unterminated_line (test_integration.IntegrationTests.test_eof_discards_unterminated_line) ... ok
+test_individual_configuration (test_integration.IntegrationTests.test_individual_configuration) ... ok
+test_maximum_line_length_for_lf_and_crlf (test_integration.IntegrationTests.test_maximum_line_length_for_lf_and_crlf) ... ok
+test_raw_framing_error_recovery_and_crlf (test_integration.IntegrationTests.test_raw_framing_error_recovery_and_crlf) ... ok
+test_six_joint_motion_atomic_rejection_and_stop (test_integration.IntegrationTests.test_six_joint_motion_atomic_rejection_and_stop) ... ok
+test_step_partition_is_deterministic (test_integration.IntegrationTests.test_step_partition_is_deterministic) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.872s
+
+OK
+
+Exit status: 0

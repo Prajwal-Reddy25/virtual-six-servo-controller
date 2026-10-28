@@ -1,0 +1,37 @@
+$ cmake -S . -B build-release -DCMAKE_BUILD_TYPE=Release
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Python3: /usr/bin/python3 (found suitable version "3.12.3", minimum required is "3.10") found components: Interpreter
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: <repo>/build-release
+
+Exit status: 0
+$ cmake --build build-release
+[  6%] Building CXX object CMakeFiles/servo_motion.dir/src/joint.cpp.o
+[ 13%] Building CXX object CMakeFiles/servo_motion.dir/src/parser.cpp.o
+[ 20%] Building CXX object CMakeFiles/servo_motion.dir/src/controller.cpp.o
+[ 26%] Building CXX object CMakeFiles/servo_motion.dir/src/config.cpp.o
+[ 33%] Linking CXX static library libservo_motion.a
+[ 33%] Built target servo_motion
+[ 40%] Building CXX object CMakeFiles/one_servo_demo.dir/src/one_servo_demo.cpp.o
+[ 46%] Linking CXX executable one_servo_demo
+[ 46%] Built target one_servo_demo
+[ 53%] Building CXX object CMakeFiles/servo_controller.dir/src/main.cpp.o
+[ 60%] Linking CXX executable servo_controller
+[ 60%] Built target servo_controller
+[ 66%] Building CXX object CMakeFiles/joint_tests.dir/tests/test_joint.cpp.o
+[ 73%] Linking CXX executable joint_tests
+[ 73%] Built target joint_tests
+[ 80%] Building CXX object CMakeFiles/parser_tests.dir/tests/test_parser.cpp.o
+[ 86%] Linking CXX executable parser_tests
+[ 86%] Built target parser_tests
+[ 93%] Building CXX object CMakeFiles/controller_tests.dir/tests/test_controller.cpp.o
+[100%] Linking CXX executable controller_tests
+[100%] Built target controller_tests
+
+Exit status: 0
